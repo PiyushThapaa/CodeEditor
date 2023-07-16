@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #4343437d;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 18px 19px;
+    font-family: math;
+}
+body {
+    background-color: rgb(46, 46, 46);
+  }
+  .textcode{
+    height: 24vh;
+    width: 28rem;
+    background-color: rgb(95, 95, 95);
+    margin: 11px 0px;
+    padding: 11px;
+    font-size: 19px;
+    font-family: cursive;
+}
+#container{
+  display: flex;
+    margin: 19px;
+    column-gap: 43px;
+    justify-content: center;
+}
+#output{
+  height: 80vh;
+  background-color: white;
+  width: 50rem;
+  margin-right: 65px;
+  margin-top: 18px;
+}
+#htmlcode:hover{
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.1rem #fff, 0 0 1rem rgb(113, 250, 255),
+   0 0 0.8rem rgb(113, 250, 255), 0 0 1.8rem rgb(113, 250, 255), inset 0 1px 0.3rem rgb(113, 250, 255)
+}
+#csscode:hover{
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.1rem #fff, 0 0 1rem antiquewhite, 
+  0 0 0.8rem antiquewhite, 0 0 1.8rem antiquewhite, inset 0 1px 0.3rem antiquewhite
+}
+#jscode:hover{
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.1rem #fff, 0 0 1rem chartreuse, 
+  0 0 0.8rem chartreuse, 0 0 1.8rem chartreuse, inset 0 1px 0.3rem chartreuse
+}
+.titles{
+  border: 2px solid white;
+    color: white;
+    padding: 3px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+@media screen and (max-width: 1396px) {
+ .textcode{
+  width: 99%;
+}
+  .containers{
+    display: flex;
+    flex-direction: column;
+  }
+
+#output{
+  width: 100%;
+}
+#container{
+  display: block;
+} 
+}
